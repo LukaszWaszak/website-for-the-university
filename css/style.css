@@ -6,32 +6,32 @@
 
 @font-face {
     font-family: Muli-semibold;
-    src: url(/css/fonts//Muli-SemiBold.ttf);
+    src: url(./fonts/muli-semibold.ttf);
 }
 
 @font-face {
     font-family: Muli-bold;
-    src: url(/css/fonts/Muli-Bold.ttf);
+    src: url(./fonts/muli-bold.ttf);
 }
 
 @font-face {
     font-family: Muli-extrabold;
-    src: url(/css/fonts/Muli-ExtraBold.ttf);
+    src: url(./fonts/muli-extrabold.ttf);
 }
 
 @font-face {
     font-family: Muli-extralight;
-    src: url(/css/fonts//Muli-ExtraLight.ttf);
+    src: url(./fonts//muli-extralight.ttf);
 }
 
 @font-face {
     font-family: Muli-light;
-    src: url(/css/fonts/Muli-Light.ttf);
+    src: url(./fonts/muli-light.ttf);
 }
 
 @font-face {
     font-family: Muli-regular;
-    src: url(/css/fonts/Muli-Regular.ttf);
+    src: url(./fonts/muli-regular.ttf);
 }
 
 

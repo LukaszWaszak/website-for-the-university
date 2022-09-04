@@ -36,6 +36,9 @@ function validateForm() {
         console.log("false");
         alert("Prosimy o wyrażenie zgody na przetwarzanie danych.")
         return false;
+    } else {
+        sendByAjax();
+        return true;
     }
 
 
@@ -48,13 +51,13 @@ function sendByAjax() {
 
     xhr.onload = function () {
         if (this.status === 200) {
-
+            console.log("Poprawne wysłanie formularza")
         }
     }
 
-    xhr.open('POST', 'contact-form.php', true);
+    xhr.open('POST', '/php/contact-form.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send('message=' + JSON.stringify({ val: message.value }));
+    xhr.send();
 
 }
 
